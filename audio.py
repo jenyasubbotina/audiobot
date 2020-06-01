@@ -4,12 +4,9 @@ from telebot import types
 from filestack import Client
 import random
 
-# Your fire-stack api
-client = Client("api")
-# Directory to save files, can look like :
-path = "C:\\PycharmProjects\\bot\\audios\\1.mp3"
-# Your Telegram Bot token
-token = "token"
+client = Client("A0LbJ1YlXQFWtoK4G9QBjz")
+path = "C:\\Users\\WINDOWS 10\\PycharmProjects\\memebot\\images\\1.mp3"
+token = "1157303469:AAG9iUMm_meciVW8Vwiqb1ZdAgepWOyQowQ"
 bot = telebot.TeleBot(token)
 
 
